@@ -1,3 +1,4 @@
+/* /* universal style for full page */
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +8,8 @@
 /* shared style */
 
 .font-open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .logo h2 {
@@ -31,8 +32,16 @@
     cursor: pointer;
 }
 
+#about,
+#skills,
+#resume {
+    padding-top: 130px;
+}
+
+
 /* main style */
 
+/* header section style */
 header {
     background-color: #FFF8F3;
     background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
@@ -41,6 +50,7 @@ header {
     padding-top: 50px;
 }
 
+/* nav style */
 nav {
     width: 71%;
     max-width: 1140px;
@@ -64,6 +74,7 @@ nav .menu a {
     text-decoration: none;
 }
 
+/* banner style */
 #banner {
     /* border: 1px solid red; */
     margin: 46px 38px 0px 230px;
@@ -103,10 +114,7 @@ nav .menu a {
     vertical-align: middle;
 }
 
-#about {
-    padding-top: 130px;
-}
-
+/* about section style */
 #about .about-container {
     width: 71%;
     max-width: 1140px;
@@ -149,10 +157,7 @@ nav .menu a {
     font-size: 20px;
 }
 
-#skills {
-    padding-top: 130px;
-}
-
+/* skills section style */
 #skills .skills-container {
     width: 71%;
     max-width: 1140px;
@@ -185,6 +190,53 @@ nav .menu a {
 }
 
 .skill-card p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+/* resume section style */
+#resume .resume-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+
+.resume-container hr {
+    margin: 30px 0;
+}
+
+.resume-container .section-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-card .experience-card {
+    max-width: 511px;
+    margin-right: 47px;
+}
+
+.resume-card .card-title,
+.experience-card .card-title {
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+.resume-card .card-info,
+.experience-card .card-info {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.resume-card .card-text,
+.experience-card .card-text {
     font-size: 16px;
     line-height: 28px;
     color: #757575;
