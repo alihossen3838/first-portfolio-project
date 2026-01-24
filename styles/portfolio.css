@@ -1,4 +1,4 @@
-/* /* universal style for full page */
+/* universal style for full page */
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +6,11 @@
 }
 
 /* shared style */
+.container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 .font-open-sans {
     font-family: "Open Sans", sans-serif;
@@ -37,6 +42,13 @@
     /* margin: 50px auto 113px; */
 }
 
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
 #about,
 #skills,
 #resume {
@@ -45,7 +57,6 @@
 
 
 /* main style */
-
 /* header section style */
 header {
     background-color: #FFF8F3;
@@ -57,13 +68,13 @@ header {
 
 /* nav style */
 nav {
-    width: 71%;
+    /* width: 71%;
     max-width: 1140px;
-    /* border: 1px solid black; */
-    margin: 0px auto;
+    margin: 0px auto; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* border: 1px solid black; */
 }
 
 nav .menu {
@@ -121,20 +132,20 @@ nav .menu a {
 
 /* about section style */
 #about .about-container {
-    width: 71%;
+    /* width: 71%;
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0 auto; */
     text-align: center;
     background-color: #FFF8F3;
     padding: 131px 156px;
 }
 
-.section-heading {
+/* .section-heading {
     max-width: 827px;
     text-align: center;
     margin: 0 auto;
 }
-
+ */
 .section-heading h2 {
     font-size: 35px;
     margin-bottom: 30px;
@@ -163,12 +174,12 @@ nav .menu a {
 }
 
 /* skills section style */
-#skills .skills-container {
+/* #skills .skills-container {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
 }
-
+ */
 #skills .skills-container .skill-box {
     display: flex;
     gap: 24px;
@@ -202,9 +213,10 @@ nav .menu a {
 
 /* resume section style */
 #resume .resume-container {
-    width: 71%;
+    /* width: 71%;
     max-width: 1140px;
-    margin: 113px auto 0;
+    margin: 113px auto 0; */
+    margin-top: 113px;
     display: flex;
     gap: 24px;
 }
@@ -254,9 +266,9 @@ footer {
 }
 
 footer .footer-container {
-    width: 71%;
+    /* width: 71%;
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0 auto; */
     display: flex;
     gap: 117px;
 }
@@ -283,7 +295,8 @@ footer .footer-container {
     margin-right: 24px;
 }
 
-.footer-container form input[type="text"], input[type="email"],
+.footer-container form input[type="text"],
+input[type="email"],
 .footer-container form textarea {
     width: 461px;
     padding: 18px 31px;
