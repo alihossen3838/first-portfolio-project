@@ -320,6 +320,14 @@ input[type="email"],
     width: 95%;
   }
 
+  #about,
+  #skills,
+  #resume {
+    padding-top: 60px;
+  }
+
+  /* main style */
+  /* nav style */
   nav {
     flex-direction: column;
     gap: 20px;
@@ -330,6 +338,7 @@ input[type="email"],
     justify-content: center;
   }
 
+  /* banner style */
   #banner {
     margin: 20px;
     flex-direction: column;
@@ -353,11 +362,27 @@ input[type="email"],
     width: 100%;
   }
 
+  /* header style */
   header {
     background: url(../images/header_bg.png), #fff8f3;
     background-position: bottom left;
     background-repeat: no-repeat;
     padding-top: 50px;
+  }
+
+  /* about section style */
+  #about {
+    /* width: 95%; */
+    margin: 0 auto;
+  }
+
+  #about .about-container {
+    padding: 10px;
+  }
+
+  #about .about-container .about-info {
+    flex-direction: column;
+    gap: 30px;
   }
 
   .hide {
