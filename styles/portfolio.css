@@ -385,7 +385,17 @@ input[type="email"],
     gap: 30px;
   }
 
-  .hide {
-    display: none !important;
+  /* skill section style */
+  #skills {
+    margin: 0 auto;
+  }
+
+  #skills .skills-container .skill-box {
+    flex-direction: column;
+  }
+
+  .skill-box .skill-card {
+    max-width: 95%;
+    margin: 0 auto;
   }
 }
