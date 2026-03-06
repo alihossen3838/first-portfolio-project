@@ -306,3 +306,25 @@ input[type="email"],
   border-radius: 5px;
   color: #757575;
 }
+
+/* MOBILE VIEW (max-width: 576px and min-width: 350px) */
+@media screen and (max-width: 576px) {
+  /* shared style */
+  .container {
+    width: 95%;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hide {
+    display: none !important;
+  }
+}
