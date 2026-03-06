@@ -410,4 +410,39 @@ input[type="email"],
   .resume-container .section-title {
     text-align: center;
   }
+
+  /* footer section style */
+  footer {
+    margin-top: 60px;
+  }
+
+  footer .footer-container {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .footer-container .connection {
+    text-align: center;
+  }
+
+  .footer-container h2 {
+    text-align: center;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container form input[type="text"],
+  input[type="email"],
+  .footer-container form textarea {
+    width: 100%;
+    padding: 20px;
+  }
+
+  form div {
+    width: 95%;
+  }
 }
