@@ -398,4 +398,16 @@ input[type="email"],
     max-width: 95%;
     margin: 0 auto;
   }
+
+  /* resume section style */
+  #resume .resume-container {
+    margin-top: 60px;
+    flex-direction: column;
+    padding: 10px;
+    gap: 40px;
+  }
+
+  .resume-container .section-title {
+    text-align: center;
+  }
 }
