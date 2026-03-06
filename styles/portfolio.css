@@ -37,6 +37,12 @@
   cursor: pointer;
 }
 
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .text-center {
   text-align: center;
   /* margin: 50px auto 113px; */
@@ -322,6 +328,36 @@ input[type="email"],
   nav .menu {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  #banner {
+    margin: 20px;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  #banner .banner-content h2 {
+    font-size: 35px;
+  }
+
+  #banner .banner-content h1 {
+    font-size: 44px;
+  }
+
+  .btn-group {
+    justify-content: center;
+  }
+
+  #banner .banner-image img {
+    width: 100%;
+  }
+
+  header {
+    background: url(../images/header_bg.png), #fff8f3;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding-top: 50px;
   }
 
   .hide {
